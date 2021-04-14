@@ -56,14 +56,16 @@ module.exports = {
     // …
   ],
   variants: {
-    textColor: [
+    extend: {
+      textColor: [
         // …
-        'selection',
-    ],
-    backgroundColor: [
+        "selection"
+      ],
+      backgroundColor: [
         // …
-        'selection',
-    ],
+        "selection"
+      ],
+    },
   }
 
   // …
